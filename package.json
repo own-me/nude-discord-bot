@@ -1,0 +1,22 @@
+{
+  "name": "discord-nude-bot",
+  "version": "0.0.1",
+  "description": "Hey qt, I am NudeBot! I am our Discord community's custom bot for Own Me and the $NUDE token.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/own-me/discord-nude-bot.git"
+  },
+  "author": "Own Me Inc.",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/own-me/discord-nude-bot/issues"
+  },
+  "homepage": "https://github.com/own-me/discord-nude-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.5.0"
+  }
+}
