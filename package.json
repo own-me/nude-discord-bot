@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/own-me/discord-nude-bot#readme",
   "dependencies": {
-    "discord.js": "^13.5.0"
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.0",
