@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "Hey qt, I am NudeBot! I am our Discord community's custom bot for Own Me and the $NUDE token.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "homepage": "https://github.com/own-me/discord-nude-bot#readme",
   "dependencies": {
     "discord.js": "^13.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.4.0",
+    "typescript": "^4.5.4"
   }
 }
