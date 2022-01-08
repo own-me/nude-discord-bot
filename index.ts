@@ -5,10 +5,14 @@ import { NudeNFT__factory } from "./typechain/factories/NudeNFT__factory.js";
 
 dotenv.config();
 
-const infuraProvider = `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API_KEY}`;
 const NUDENFT_ADDRESS = '0x85E9dd3521B9c2Fd7AE9B6C4C9b394f040Bea136';
 
-const provider = new ethers.providers.JsonRpcProvider(infuraProvider);
+const provider = new ethers.providers.JsonRpcProvider({
+    url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_PROJECT_ID}}`,
+    user: "",
+    password: process.env.INFURA_SECRET,
+});
+
 const contract = NudeNFT__factory.connect(NUDENFT_ADDRESS, provider);
 
 const client = new Client({
