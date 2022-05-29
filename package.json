@@ -1,5 +1,5 @@
 {
-    "name": "discord-nude-bot",
+    "name": "nude-discord-bot",
     "version": "0.0.1",
     "description": "Hey qt, I am NudeBot! I am our Discord community's custom bot for Own Me and the $NUDE token.",
     "main": "index.js",
@@ -11,25 +11,25 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/own-me/discord-nude-bot.git"
+        "url": "git+https://github.com/own-me/nude-discord-bot.git"
     },
     "author": "Own Me Inc.",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/own-me/discord-nude-bot/issues"
+        "url": "https://github.com/own-me/nude-discord-bot/issues"
     },
-    "homepage": "https://github.com/own-me/discord-nude-bot#readme",
+    "homepage": "https://github.com/own-me/nude-discord-bot#readme",
     "dependencies": {
-        "discord.js": "^13.5.0",
-        "dotenv": "^10.0.0",
-        "ethers": "^5.5.2"
+        "discord.js": "^13.7.0",
+        "dotenv": "^16.0.1",
+        "ethers": "^5.6.8"
     },
     "devDependencies": {
-        "@types/node": "^17.0.0",
-        "ts-node": "^10.4.0",
-        "tsc-watch": "^4.4.0",
-        "typescript": "^4.5.4",
-        "@typechain/ethers-v5": "^8.0.5",
-        "typechain": "^6.1.0"
+        "@types/node": "^17.0.36",
+        "ts-node": "^10.8.0",
+        "tsc-watch": "^5.0.3",
+        "typescript": "^4.7.2",
+        "@typechain/ethers-v5": "^10.0.0",
+        "typechain": "^8.0.0"
     }
 }
