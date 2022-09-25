@@ -1,6 +1,8 @@
 # nude-discord-bot
 Hey qt, I am NudeBot! I am our Discord community's custom bot for Own Me and $NUDE_NFT tokens.
 
+> Project is dead. We had fun, but failed the business aspect.
+
 ## Join our Community
 
 ![Navbar](https://user-images.githubusercontent.com/27584221/137842947-f80ab90a-cbba-4382-b729-dfb94e0e32f0.png)
